@@ -1,4 +1,6 @@
 # Reflection Questions
+# 1. I would use .get() when a key might be missing so my code does not crash. I would use bracket notation when I know the key exists and need its value. My rule is to use .get() when I am not sure the key exists.
+# 2. Exercise 8 reminds me of using SUMIF in Excel to add numbers based on a group. Python can do this faster with large datasets because it can process many records automatically.
 
 # Exercise 1
 customer = {
