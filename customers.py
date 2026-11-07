@@ -26,3 +26,15 @@ print(customer)
 
 print(customer.get("ytd_spend",0))
 
+# Exercise 3
+
+
+print(customer.get("email", "no email on file"))
+
+# Exercise 4
+for key, value in customer.items():
+    print(f"{key}: {value}")
+
+
+for something in customer:
+    print(something, customer[something])
